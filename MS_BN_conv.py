@@ -28,7 +28,7 @@ Created on Thu Aug 31 15:13:57 2017
 #
 #import TransformInputsDef.py
 #from subprocess import call
-#call(["python", "/Users/mulugetasemework/Dropbox/Phyton/TransformInputsDef.py"]) 
+#call(["python", "/Users/.../Phyton/TransformInputsDef.py"]) 
 
 
 import math
@@ -51,7 +51,7 @@ import os
 import matplotlib.pyplot as plt   
 
 
-runfile('/Users/mulugetasemework/Dropbox/Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')    
+runfile('/Users/.../Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')    
 
 
 # neural network structure for this sample:
@@ -309,7 +309,7 @@ def training_step(i, update_train_data, update_test_data, update_valid_data):
 
 for i in range(epochs): training_step(i, i , i % testEvery == 0, i % validateEvery==0)
  
-runfile('/Users/mulugetasemework/Dropbox/Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
+runfile('/Users/.../Phyton/plotDLs.py', wdir='/Users/.../Phyton')
 
 mainTitle2='BN_conv--' + 'TransformTrainingData:' + str(TransormTrainingData
 ) +'.svg'
