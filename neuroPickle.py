@@ -32,7 +32,7 @@ all_files = glob.glob(os.path.join(path, "*.csv"))
 
 
  
-patDatah = "/Users/mulugetasemework/Dropbox/R2"
+patDatah = "/Users/.../R2"
 os.chdir(patDatah)
 #df2 = pd.read_csv("1MetaTable1.csv")
 #df2 = pd.read_csv("veryImpData.csv")
