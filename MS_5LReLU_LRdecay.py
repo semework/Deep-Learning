@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 
     
     
-runfile('/Users/mulugetasemework/Dropbox/Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
+runfile('/Users/.../Phyton/processDataAndSetup.py', wdir='/Users/.../Phyton')   
 
 
 # input X: imageSize1ximageSize1 grayscale images, the first dimension (None) will index the images in the mini-batch
@@ -220,7 +220,7 @@ for i in range(epochs): training_step(i, i , i % testEvery == 0, i % validateEve
 
 
 #plt.close("all")
-runfile('/Users/mulugetasemework/Dropbox/Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
+runfile('/Users/.../Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
 
 
 mainTitle2='5L_ReLU_lrDeacay--' + 'TransformTrainingData:' + str(TransormTrainingData
@@ -234,7 +234,7 @@ mainTitle='five_layers_relu_lrdecay '+ '   ******* Translate: ' + str(translateI
 ) + ' \n  max_learning_rate :   ' + str(max_learning_rate
 )+ '   min_learning_rate:   ' + str(min_learning_rate) +  '   decay_speed:  ' + str(decay_speed)
 
-figDir="/Users/mulugetasemework/Documents/Python/"
+figDir="/Users/.../Python/"
  
 figname= mainTitle+'.svg'
 
