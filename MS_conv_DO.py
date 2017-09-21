@@ -42,10 +42,7 @@ except:
 
 tf.set_random_seed(0.0)
 
-try:
-    import cPickle as pickle
-except:
-    import pickle
+
     
 import pandas as pd
  
@@ -53,12 +50,10 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt   
 
-from skimage.transform import warp
-from skimage.transform import SimilarityTransform
-from skimage.transform import ProjectiveTransform
+
     
     
-runfile('/Users/mulugetasemework/Dropbox/Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
+runfile('/Users/.../Phyton/processDataAndSetup.py', wdir='/Users/.../Phyton')   
 
 # input X: image
 # neural network structure for this sample:
@@ -247,7 +242,7 @@ def training_step(i, update_train_data, update_test_data, update_valid_data):
 
 for i in range(epochs): training_step(i, i , i % testEvery == 0, i % validateEvery==0)
 
-runfile('/Users/mulugetasemework/Dropbox/Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
+runfile('/Users/.../Phyton/plotDLs.py', wdir='/Users/.../Phyton')
 
 mainTitle2='ConvBigDO--' + 'TransformTrainingData:' + str(TransormTrainingData
 ) +'.svg'
@@ -261,7 +256,7 @@ mainTitle='Convolutional_bigger_dropout'+ '   ******* Translate: ' + str(transla
 )+ '   min_learning_rate:   ' + str(min_learning_rate) +  '   decay_speed:  ' + str(decay_speed)
 
 
-figDir="/Users/mulugetasemework/Documents/Python/"
+figDir="/Users/m.../Python/"
  
 figname= mainTitle+'.svg'
 
