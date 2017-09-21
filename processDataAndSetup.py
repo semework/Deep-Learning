@@ -19,16 +19,6 @@ cost append(ing)
 
 from sklearn.utils import shuffle
 
-
-
-
-try:
-    import tensorflow as tf
-except:
-    import tf
-#print("Tensorflow version " + tf.__version__)
-
-
 tf.set_random_seed(0.0)
 
 try:
@@ -40,7 +30,7 @@ import pandas as pd
  
 import numpy as np
 import os
-import matplotlib.pyplot as plt   
+
 
 reshapeImages = 1    
  
