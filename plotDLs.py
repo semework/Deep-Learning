@@ -18,9 +18,7 @@ testAccS[0] = 0
 if test_thiscode==1: 
 
     ax1.plot(testIndxS,[i * 100 for i in testAccS],':',label='swapped test accuracy')
-
-
-    
+ 
 ax1.plot(testIndx_trans,[i * 100 for i in testAcc_trans],'m*-',label='trans_test accuracy',linewidth=1.5)    
 ax1.plot(testIndx,[i * 100 for i in testAcc],'r',label='test accuracy',linewidth=1.5)
 if test_shuffled == 1:
@@ -70,11 +68,7 @@ if test_thiscode==1:
 if doNotValidate==0:
     ax2.plot(validIndx, validCost ,'green',label='validation')
 
-
-
 ax2.set_xticklabels(  (labels))
-
-
 ax2.set_title('Cost' ,size=8)
 ax2.set_xlabel('Epochs',size=6)
 ax2.set_ylabel('Entropy',size=6 )
