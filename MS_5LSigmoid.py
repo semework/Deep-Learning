@@ -55,7 +55,7 @@ import os
 import matplotlib.pyplot as plt   
 
     
-runfile('/Users/mulugetasemework/Dropbox/Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
+runfile('/Users/.../Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
 
 
 # Features and Labels
@@ -216,7 +216,7 @@ for i in range(epochs): training_step(i, i , i % testEvery == 0, i % validateEve
 
 
 
-runfile('/Users/mulugetasemework/Dropbox/Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
+runfile('/Users/.../Phyton/plotDLs.py', wdir='/Users/.../Phyton')
 
 
 mainTitle2='5L_sigmoid--' + 'TransformTrainingData:' + str(TransormTrainingData
