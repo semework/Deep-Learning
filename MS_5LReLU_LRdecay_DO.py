@@ -56,7 +56,7 @@ import os
 import matplotlib.pyplot as plt   
   
     
-runfile('/Users/mulugetasemework/Dropbox/Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
+runfile('/Users/.../processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
    
 
 # input X: imageSize1ximageSize1 grayscale images, the first dimension (None) will index the images in the mini-batch
@@ -227,7 +227,7 @@ def training_step(i, update_train_data, update_test_data, update_valid_data):
 for i in range(epochs): training_step(i, i , i % testEvery == 0, i % validateEvery==0)
 
 
-runfile('/Users/mulugetasemework/Dropbox/Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
+runfile('/Users/.../plotDLs.py', wdir='/Users/.../Phyton')
 
 
 mainTitle2='5L_ReLU_lrDecay_DO--' + 'TransformTrainingData:' + str(TransormTrainingData
