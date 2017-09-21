@@ -37,7 +37,7 @@ import os
 import matplotlib.pyplot as plt   
 
     
-runfile('/Users/.../Phyton/processDataAndSetup.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')   
+runfile('/Users/.../Phyton/processDataAndSetup.py', wdir='/Users/.../Phyton')   
 
  
 
@@ -188,7 +188,7 @@ def training_step(i, update_train_data, update_test_data, update_valid_data):
 for i in range(epochs): training_step(i, i , i % testEvery == 0, i % validateEvery==0)
 
 
-runfile('/Users/mulugetasemework/Dropbox/Phyton/plotDLs.py', wdir='/Users/mulugetasemework/Dropbox/Phyton')
+runfile('/Users/.../plotDLs.py', wdir='/Users/.../Phyton')
 
 
 mainTitle2='1L_softmax--' + 'TransformTrainingData:' + str(TransormTrainingData
